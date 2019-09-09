@@ -1,0 +1,12 @@
+.slider {
+	-webkit-appearance: none;
+	border-radius: 10px;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+}
