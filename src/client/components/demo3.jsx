@@ -15,8 +15,8 @@ class Demo3 extends Component {
         <Nav {...this.props} />
         <section styleName={"custom.header"}>
           <h2>Slider Demo</h2>
-          <div>
-            <input class="slider" type="range" min="0" max="25" />
+          <div styleName = "demoStyle.sliderContainer">
+            <input styleName="demoStyle.slider" type="range" min="1" max="25" />
           </div>
         </section>
       </div>
